@@ -17,7 +17,6 @@
 
 -record(pool, {
           name             :: atom(),
-          group            :: atom(),
           max_count = 100  :: non_neg_integer(),
           init_count = 10  :: non_neg_integer(),
           start_mfa        :: {atom(), atom(), [term()]},
